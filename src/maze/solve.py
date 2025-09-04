@@ -36,7 +36,7 @@ class BFSSolver:
         raise ValueError("No path")
 
 class AStarSolver:
-    def solve(self, m: Maze, start: Tuple[int, int], goal: Tuple(int, int)) -> List[Tuple[int, int]]:
+    def solve(self, m: Maze, start: Tuple[int, int], goal: Tuple[int, int]) -> List[Tuple[int, int]]:
         sx, sy = start; gx, gy = goal
         open_heap = [(0, (sx,sy))]
         g = { (sx, sy): 0 }
