@@ -1,0 +1,14 @@
+# Core dependencies for maze-tdd
+pygame==2.6.1
+
+# Development and testing dependencies
+pytest==8.4.1
+
+# The following are built-in Python modules (no installation required):
+# - argparse (CLI parsing)
+# - collections (deque for BFS)
+# - dataclasses (Cell dataclass)
+# - heapq (priority queue for A*)
+# - random (maze generation)
+# - subprocess (CLI testing)
+# - typing (type hints)

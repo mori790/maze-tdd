@@ -1,0 +1,5 @@
+# Development requirements (includes all production dependencies)
+-r requirements.txt
+
+# Additional development tools
+pytest==8.4.1

@@ -12,7 +12,7 @@ DIRS = {
 }
 
 # 範囲内か確認
-def in_bounds(m: Maze, x: int, y:int) -> bool:
+def in_bounds(m: Maze, x: int, y: int) -> bool:
     return 0 <= x < m.width and 0 <= y < m.height
 
 class RecursiveBacktracker:
