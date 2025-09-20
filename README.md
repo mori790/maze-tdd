@@ -4,6 +4,8 @@ OOP および TDD の学習目的で作成したプロジェクトです。ア�
 大学院入試で勉強してきたアルゴリズムの知識を一部使っています。
 テスト駆動開発（TDD）で作成された迷路生成・解法プログラム。Python で実装され、CLI と Pygame を使った GUI 両方で迷路を楽しめます。
 
+動画 URL: https://youtu.be/kXq3WwUxIQE
+
 ## 特徴
 
 - **迷路生成**: Recursive Backtracker アルゴリズムによる迷路生成
